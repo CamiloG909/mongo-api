@@ -1,0 +1,30 @@
+###
+GET http://localhost:4000
+###
+GET http://localhost:4000/api/tasks
+###
+GET http://localhost:4000/api/tasks?size=2&page=0
+###
+POST http://localhost:4000/api/tasks
+Content-Type: application/json
+
+{
+	"title": "Make a web application with Python",
+	"description": "Freelance",
+	"done": true
+}
+###
+GET http://localhost:4000/api/tasks/completed
+###
+GET http://localhost:4000/api/tasks/615b1e1d4a0041e380cdb16d
+###
+PUT http://localhost:4000/api/tasks/615b2eb598518bb8cfa62a0b
+Content-Type: application/json
+
+{
+	"title": "Make a web application with Perl and Python",
+	"description": "Company",
+	"done": true
+}
+###
+DELETE http://localhost:4000/api/tasks/615b2991738b8f3cf29f8062
