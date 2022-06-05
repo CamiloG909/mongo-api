@@ -6,7 +6,9 @@ Deploy✨ https://mongo-api.camilog909.repl.co
 
 - GET
 	> /api/tasks
+	
 	> /api/tasks/:id
+	
 	> /api/tasks/completed
 - POST
 	> /api/tasks
