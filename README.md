@@ -10,9 +10,9 @@ Deploy✨ https://mongo-api.camilog909.repl.co
 	> /api/tasks/completed
 - POST
 	> /api/tasks
-	> PUT
+- PUT
 	> /api/tasks/:id
-	> DELETE
+- DELETE
 	> /api/tasks/:id
 
 ## Example body
