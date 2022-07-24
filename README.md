@@ -21,10 +21,8 @@ Deploy✨ https://mongo-api.camilog909.repl.co
 
 ```json
 {
-	title: String,
-	price: Number,
-	image: String,
-	description: String,
-	amount: Number,
+	"title": "Task title",
+	"description": "Some text",
+	"done": true
 }
 ```
