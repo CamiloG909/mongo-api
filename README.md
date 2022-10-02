@@ -1,6 +1,6 @@
 # API with MongoDB
 
-Deploy✨ https://mongo-api.camilog909.repl.co
+Deploy✨ https://mongo-api-camilog90.up.railway.app/api/tasks
 
 ## Routes
 
