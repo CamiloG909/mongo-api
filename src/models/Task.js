@@ -10,6 +10,7 @@ const taskSchema = new Schema(
   {
     versionKey: false,
     timestamps: true,
+    collection: "mongo-api",
   }
 );
 
